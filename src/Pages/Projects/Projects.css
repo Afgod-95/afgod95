@@ -1,0 +1,80 @@
+.project-container{
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+}
+.topic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.dropdown-options{
+    width: 7rem;
+    border: thin solid #000;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.project-card{
+    width: 200px;
+    cursor: pointer;
+}
+
+.image-container{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.image-container img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.name-project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -8px;
+    top: -20px;
+    background: linear-gradient(rgb(4, 194, 236),  rgb(27, 108, 126))
+}
+
+
+
+
+.image-container-mobile, .counter-mobile{
+    position: inherit;
+}
+
+.counter-mobile{
+    float: right;
+}

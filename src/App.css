@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  text-decoration: none;
+}
+  [data-theme = 'light']{
+    --backgroundColor: #fff;
+    --textColor: #000;
+    --buttonBg:  #1f1f1f;
+  }
+
+  [data-theme = 'dark']{
+    --backgroundColor: #111111;
+    --buttonBg:  rgb(40, 41, 41);
+    --textColor: #fff
+  }
+p{
+  font-size: 13px;
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  height: 100%;
+  color: var(--textColor);
+  background: var(--backgroundColor)
+}
+
+
+.person{
+  background: -webkit-linear-gradient(right, hsl(191, 97%, 47%) 30%,  rgb(27, 108, 126) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5{
+  font-size: 15px;
+}
+.button{
+  background: linear-gradient(to right, var(--buttonBg) 50%,  rgb(19, 123, 131) 50%);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  display: flex;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  align-items: center;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+  transition: all .8s ease-out;
+}
+
+.button:hover{
+  background-position: left bottom;
+}
+
+
+.icon-icon{
+  font-size: 1.5rem;
+  margin-top: 10px;
+  transition: .5s all ease;
+  cursor: pointer;
+  color: var(--textColor);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.icon-icon:hover{
+  color:  rgba(39, 133, 154, 1);
+}

@@ -1,0 +1,99 @@
+[data-theme = 'light']{
+    --bgColor: hwb(0 100% 0%);
+}
+  
+[data-theme = 'dark']{
+    --bgColor: #202020;
+}
+
+
+.skills-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+} 
+
+
+.skills-container-mobile{
+    flex-direction: column;
+}
+
+.slider-width{
+    width: 90%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: -10;
+    padding-bottom: 30px;
+}
+
+
+.skill-name{
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.carousel{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.inner-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.skill{
+    padding-bottom: 20px;
+}
+
+.specialty{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.specialty::before{
+    content: "";
+    display: flex;
+    background: linear-gradient(to left, rgb(7, 146, 170), transparent );
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: Move 2s backwards infinite;
+}
+
+@keyframes Move {
+    0% {
+        width: 0%
+    }
+    50% {
+        width: 20%;
+    }
+
+    100% {
+        width: 100%;
+    }
+    0% {
+        width: 0%;
+    }
+
+
+
+}
+  
