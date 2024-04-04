@@ -1,32 +1,28 @@
 import BusinessCard from '../../assets/Graphics/bus(2).png'
-import Bus from '../../assets/Graphics/bus.png'
-import DeeNatural from '../../assets/Graphics/deenatural.png'
-import DeeNatural1 from '../../assets/Graphics/dee.png'
-import Cert from '../../assets/Graphics/cert.png'
+import Enamabel from '../../assets/Graphics/Enamabel.png'
 import Easter from '../../assets/Graphics/Easter.png'
 
-import Design1 from '../../assets/Graphics/bus.png'
+import Pyd from '../../assets/Graphics/Pyd.jpg'
 import Elijah from '../../assets/Graphics/ELIJAH3.jpg'
-import Elijah1 from '../../assets/Graphics/ELIJAH.jpg'
 import Elijah2 from '../../assets/Graphics/ELIJAH2.jpg'
 import Jay from '../../assets/Graphics/Jay.png'
-import FathersDay from '../../assets/Graphics/fathers.png'
 import Gladav from '../../assets/Graphics/gladav.png'
 import Gladav1 from '../../assets/Graphics/gladav1.png'
 import Glam from '../../assets/Graphics/Glam.png'
 import GlamBy from '../../assets/Graphics/Glamby.png'
 import Godya from '../../assets/Graphics/Godya.png'
-import Invitation from '../../assets/Graphics/iNVITATION.jpg'
 import Karen from '../../assets/Graphics/Karin.png'
 import LuckyDecor from '../../assets/Graphics/LuckyDecor.png'
 import LuckyDecor2 from '../../assets/Graphics/LuckyDecor2.png'
-import marriageCert from '../../assets/Graphics/marriage.png'
 import Nat from '../../assets/Graphics/nAT.jpg'
 import PjayCover from '../../assets/Graphics/PjayCover.png'
 import Shito from '../../assets/Graphics/shito.png'
 import Sulphato from '../../assets/Graphics/Sulphato.png'
-import Victory from '../../assets/Graphics/victory.png'
 import Victory3 from '../../assets/Graphics/victory3.png'
+import All from '../../assets/Graphics/All.jpg'
+import Medaz from '../../assets/Graphics/Medaz.jpg'
+import Naa from '../../assets/Graphics/Naa.jpg'
+import Mira from '../../assets/Graphics/Mira.jpg'
 
 export  const itemData = [
     {
@@ -36,13 +32,32 @@ export  const itemData = [
     },
 
     {
-        id: 2,
-        img: Elijah,
-        title: 'Business Flyer'
+        id: 1,
+        img: All,
+        title: 'Business card'
     },
+
+    {
+        id: 1,
+        img: Medaz,
+        title: 'Business card'
+    },
+
+    {
+        id: 1,
+        img: Naa,
+        title: 'Business card'
+    },
+
+    {
+        id: 1,
+        img: Mira,
+        title: 'Business card'
+    },
+
     {
         id: 2,
-        img: Elijah1,
+        img: Elijah,
         title: 'Business Flyer'
     },
 
@@ -70,7 +85,7 @@ export  const itemData = [
     },
     {
         id: 2,
-        img: Bus,
+        img: Enamabel,
         title: 'Business Flyer'
     },
 
@@ -143,7 +158,7 @@ export  const itemData = [
     },
     {
         id: 6,
-        img: Design1,
+        img: Pyd,
         title: 'Music unveliling'
     },
     {
