@@ -7,7 +7,6 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { SiFiverr, SiFreelancer } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 
-import About from '../About/About.jsx'
 
 import { Link } from 'react-router-dom'
 import Image from '../../assets/image.png'
@@ -27,9 +26,8 @@ const Home = () => {
             <div className="home-details">
               <p className='my-name'>My name is <b className='person '>GODWIN</b></p>
               <p style={{marginBlock: '10px', lineHeight: '25px'}}>
-                I am  an expert in software development (Web, Android and
-                iOS platforms), Graphic Designer, UIX Designer and I have 
-                over two (2) years of working experience.
+                I am specialized in software development (Web, Android and
+                iOS platforms), Graphic Designer and UI/UX Designer.
               </p>
                 
               <Link to={'https://wa.me/qr/RJ752P67ZRJML1'}>
@@ -100,9 +98,8 @@ const Home = () => {
                 </div>
               
               <p style={{marginBlock: '10px', lineHeight: '25px'}}>
-                I am  an expert in software development (Web, Android and
-                iOS platforms), Graphic Designer, UIX Designer and I have 
-                over two (2) years of working experience.
+                I am specialized in software development (Web, Android and
+                iOS platforms), Graphic Designer and UI/UX Designer.
               </p>
                 
               <div className="button bt">

@@ -70,3 +70,7 @@ h5{
 .icon-icon:hover{
   color:  rgba(39, 133, 154, 1);
 }
+
+p{
+  text-align: justify;
+}
