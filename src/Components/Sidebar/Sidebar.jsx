@@ -9,7 +9,6 @@ import {
 } from '@mui/icons-material';
 import { WiMoonAltWaningCrescent4 } from 'react-icons/wi';
 import { NavLink } from 'react-router-dom';
-import { Avatar } from '@mui/material';
 import { useTheme } from '../../ThemeProvider';
 import CustomModal from '../CustomModal/CustomModal';
 
