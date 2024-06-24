@@ -1,5 +1,5 @@
 [data-theme = 'light']{
-    --bgColor: hwb(0 100% 0%);
+    --bgColor: #fffefe;
 }
   
 [data-theme = 'dark']{

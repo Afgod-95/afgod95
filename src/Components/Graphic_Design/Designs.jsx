@@ -23,6 +23,7 @@ import All from '../../assets/Graphics/All.jpg'
 import Medaz from '../../assets/Graphics/Medaz.jpg'
 import Naa from '../../assets/Graphics/Naa.jpg'
 import Mira from '../../assets/Graphics/Mira.jpg'
+import Social from '../../assets/Graphics/Social.png'
 
 export  const itemData = [
     {
@@ -81,6 +82,11 @@ export  const itemData = [
     {
         id: 2,
         img: Godya,
+        title: 'Business Flyer'
+    },
+    {
+        id: 2,
+        img: Social,
         title: 'Business Flyer'
     },
     {

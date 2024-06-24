@@ -3,12 +3,12 @@
     --textColor: #000000;
     --sidebarBg:  #ffffff;
     --bgColor: #f1efef;
-  }
+}
   
-  [data-theme = 'dark']{
+[data-theme = 'dark']{
     --textColor: #fff;
     --bgColor: #202020;
-  }
+}
 
 .container{
     width: 100%;

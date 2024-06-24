@@ -73,17 +73,6 @@ const Sidebar = ({ children }) => {
                                     <div className="title">
                                         <h3 className="person">Personal Portfolio</h3>
                                     </div>
-                                    <div className="avatar-details">
-                                        <Avatar
-                                            alt="Remy Sharp"
-                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC8kiSH5ZSAcVoj3tAQQDoP_ux0sSricMyUg&usqp=CAU"
-                                            sx={{ width: 40, height: 40, border: '5px solid rgba(217, 217, 217, 1)' }}
-                                        />
-                                        <div className="name">
-                                            <h5 className="person">Afari Boadu Godwin</h5>
-                                            <p style={{ color: '#acadac' }}>Afgod95.dev</p>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div className="link">
                                     {dashboardLinks.map((item, index) => (

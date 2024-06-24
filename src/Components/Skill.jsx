@@ -28,7 +28,7 @@ const Skill = ({ name, percentage }) => {
           observer.unobserve(skillRef.current);
         }
       },
-      { threshold: 0.5 } // Adjust threshold as needed
+      { threshold: 0.5 } 
     );
 
     observer.observe(skillRef.current);

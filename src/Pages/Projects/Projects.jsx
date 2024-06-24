@@ -53,10 +53,6 @@ export default function Projects() {
 
   return (
     <Box sx={{ width: '100%', }}>
-      <div style={{position: 'fixed'}}>
-
-        
-      </div>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
       <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
         <Tab label="Software Dev" 

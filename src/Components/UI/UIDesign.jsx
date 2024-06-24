@@ -4,13 +4,11 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { useMediaQuery } from 'react-responsive';
 import { motion } from 'framer-motion';
-import { useTheme } from '../../ThemeProvider';
-import { FaArrowUp } from "react-icons/fa6";
+import ScrollUp from '../ScrollUp';
 
 export default function UIDesign() {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
   const [selectedImage, setSelectedImage] = React.useState(null);
-  const { theme } = useTheme()
 
   const handleImageClick = (imageSrc) => {
     setSelectedImage(imageSrc);
@@ -50,31 +48,7 @@ export default function UIDesign() {
       </Box>
 
       {isTabletOrMobile && (
-          <motion.div
-            initial={{ opacity: 0, y: '-100%' }}
-            animate={{ opacity: 1, y: '0%' }}
-            exit={{ opacity: 0, y: '-100%' }}
-            transition={{ type: 'spring', stiffness: 100 }}
-            style={{
-              justifyContent: 'center',
-              alignItems: 'center',
-              display: 'flex',
-              gap: '10px',
-              paddingBottom: "10px",
-              position: 'absolute',
-              bottom: '70px',
-              right: '10px',
-              backgroundColor: theme === 'light' ? '#fff' : '#000',
-              width: '50px',
-              height: '40px',
-              borderRadius: '100%',
-              boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
-            }}
-          >
-            <FaArrowUp style={{color: '#fff', fontSize: '16px', alignItems: 'center', justifyContent: 'center' }}/>
-
-          </motion.div>
-
+          <ScrollUp />
         )}
 
       {selectedImage && isTabletOrMobile && (
