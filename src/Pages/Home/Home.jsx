@@ -30,11 +30,9 @@ const Home = () => {
                 iOS platforms), Graphic Designer and UI/UX Designer.
               </p>
                 
-              <Link to={'https://wa.me/qr/RJ752P67ZRJML1'}>
-                <div className="button but">
-                  <p>Hire me</p>
-                </div>
-              </Link>
+              <a href="/public/godwin_resume.pdf" className="button bt" target="_blank" rel="noopener noreferrer">
+                <p className="text">Resume</p>
+              </a>
               
               <p style = {{color: 'rgba(39, 133, 154, 1', justifyContent: 'center', display: 'flex'}}>Connect with me on</p>
               
@@ -102,7 +100,7 @@ const Home = () => {
                 iOS platforms), Graphic Design and UI/UX Design.
               </p>
                 
-              <a href="/godwin_resume.pdf" className="button bt" target="_blank" rel="noopener noreferrer">
+              <a href="/public/godwin_resume.pdf" className="button bt" target="_blank" rel="noopener noreferrer">
                 <p className="text">Resume</p>
               </a>
 
