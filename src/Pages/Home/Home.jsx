@@ -99,12 +99,12 @@ const Home = () => {
               
               <p style={{marginBlock: '10px', lineHeight: '25px'}}>
                 I am specialized in software development (Web, Android and
-                iOS platforms), Graphic Designer and UI/UX Designer.
+                iOS platforms), Graphic Design and UI/UX Design.
               </p>
                 
-              <div className="button bt">
-                <p className = "text">Hire me</p>
-              </div>
+              <a href="/godwin_resume.pdf" className="button bt" target="_blank" rel="noopener noreferrer">
+                <p className="text">Resume</p>
+              </a>
 
               <p style = {{color: 'rgba(39, 133, 154, 1', justifyContent: 'center', display: 'flex', paddingTop: '30px'}}>Connect with me on</p>
             

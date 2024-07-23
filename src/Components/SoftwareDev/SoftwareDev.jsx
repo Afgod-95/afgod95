@@ -6,10 +6,12 @@ import { useMediaQuery } from 'react-responsive';
 import { motion } from 'framer-motion';
 import { useTheme } from '../../ThemeProvider';
 import ScrollUp from '../ScrollUp';
+import { useNavigate } from 'react-router-dom';
 
-export default function SoftwareDev() {
+const SoftwareDev = () => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
   const [selectedImage, setSelectedImage] = React.useState(null);
+  const navigate = useNavigate()
 
   const handleImageClick = (imageSrc) => {
     setSelectedImage(imageSrc);
@@ -18,6 +20,11 @@ export default function SoftwareDev() {
   const handleCloseModal = () => {
     setSelectedImage(null);
   };
+
+  
+  const handleDetails = (data) => {
+    navigate('/details', { data })
+  }
 
   
 
@@ -164,3 +171,6 @@ const itemData = [
     title: 'Coffee table',
   },
 ];
+
+
+export default SoftwareDev
